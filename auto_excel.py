@@ -32,7 +32,7 @@ def upload_file():
 
         columns_needed = [
             'MBL No', 'HBL No', 'POD', 'FDEST', 'Sub Loc Cd', 'GWT', 'VOL WT',
-            'Qty', 'QTY Unit Cd', 'Item Name', 'CNEE Address', 'SHPR Address', 'POL ATD\u25b2'
+            'Qty', 'QTY Unit Cd', 'Item Name', 'CNEE Address', 'SHPR Address', 'POL ATD'
         ]
 
         df_extracted = df[columns_needed].copy()
